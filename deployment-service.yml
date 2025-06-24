@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vikashashoke/emailservice:latest
+        image: kmaheshch/emailservice:latest
         ports:
         - containerPort: 8080
         env:
@@ -468,7 +468,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: vikashashoke/loadgenerator:latest
+        image: kmaheshch/loadgenerator:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
